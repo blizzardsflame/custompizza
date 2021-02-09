@@ -1,13 +1,13 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 //Assets
-import Base from "../assets/PizzaBase.png";
-import Cheese from "../assets/BaseCheese.png";
-import Olive from "../assets/Olive.png";
-import Pineapple from "../assets/Pineapple.png";
-import Mushroom from "../assets/Mushroom.png";
-import Basil from "../assets/Basil.png";
-import Tomato from "../assets/Tomato.png";
+import Base from "../images/PizzaBase.png";
+import Cheese from "../images/BaseCheese.png";
+import Olive from "../images/Olive.png";
+import Pineapple from "../images/Pineapple.png";
+import Mushroom from "../images/Mushroom.png";
+import Basil from "../images/Basil.png";
+import Tomato from "../images/Tomato.png";
 //Animation
 import { motion } from "framer-motion";
 
@@ -177,4 +177,5 @@ const Customize = ({ ingredients, setIngredients }) => {
     </div>
   );
 };
+
 export default Customize;
